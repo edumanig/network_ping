@@ -64,10 +64,10 @@ if __name__ == '__main__':
         print('-------------------')
         res_data=pydict["results"]
         print(res_data)
-        find_this = "0% packet loss,"
+        find_this = "100%"
         if find_this in res_data:
-            print("Connectivity test - PASSED")
-        else:
             print("Connectivity test - FAILED")
+        else:
+            print("Connectivity test - PASSED")
     print()
 
