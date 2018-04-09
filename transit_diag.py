@@ -20,7 +20,8 @@ if __name__ == '__main__':
     #f = open("/home/ubuntu/.aviatrix/credentials", encoding="latin-1")
 
     # get controller credentials
-    with open(os.path.expanduser('~/.aviatrix/credentials'), 'r') as f:
+    #with open(os.path.expanduser('~/.aviatrix/credentials'), 'r') as f:
+    with open(os.path.expanduser('/home/ubuntu/.aviatrix/credentials'), 'r') as f:
         read_data = f.readlines()
 
     list=read_data[1].split("=")
